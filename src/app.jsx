@@ -1,19 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Manifesto from "./components/Manifesto";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
-import CursorOverlay from "./components/CursorOverlay";
-import Philosophy from "./components/Philosophy";
-import BehindTheLab from "./components/BehindTheLab";
+// === COMPONENTI PRINCIPALI ===
+import Header from "./components/header";
+import Hero from "./components/hero";
+import Manifesto from "./components/manifesto";
+import Projects from "./components/projects";
+import Footer from "./components/footer";
+import CursorOverlay from "./components/cursoroverlay";
+import Philosophy from "./components/philosophy";
+import BehindTheLab from "./components/behindthelab";
 
-// Pagine
-import AboutPage from "./pages/AboutPage";
-import ContactsPage from "./pages/ContactsPage";
-import WorkPage from "./pages/WorkPage";
+// === PAGINE ===
+import AboutPage from "./pages/aboutpage";
+import ContactsPage from "./pages/contactspage";
+import WorkPage from "./pages/workpage";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -49,6 +50,7 @@ export default function App() {
     </Router>
   );
 }
+
 
 
 
