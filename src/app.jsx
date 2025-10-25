@@ -11,6 +11,7 @@ import CursorOverlay from "./components/cursoroverlay";
 import Philosophy from "./components/philosophy";
 import BehindTheLab from "./components/behindthelab";
 
+
 // === PAGINE ===
 import AboutPage from "./pages/aboutpage";
 import ContactsPage from "./pages/contactspage";
